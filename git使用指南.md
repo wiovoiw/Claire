@@ -18,12 +18,29 @@
 
 # 步骤 3: 提交更改到本地仓库
 
+要指定用户姓名和邮箱地址，你可以在Git中使用以下两个命令：
+
+设置用户姓名：
+
+使用以下命令，将你的姓名与Git配置关联：
+
+`git config --global user.name "Your Name"`
+
+将 "Your Name" 替换为你的实际姓名。使用 --global 标志可以将这个配置应用到整个系统中，如果你希望只在当前仓库生效，可以省略 --global。
+
+设置用户邮箱地址：
+
+使用以下命令，将你的邮箱地址与Git配置关联：
+
+`git config --global user.email "youremail@example.com"`
+
+将 "youremail@example.com" 替换为你的实际邮箱地址。同样，使用 --global 标志可以将这个配置应用到整个系统中，如果你希望只在当前仓库生效，可以省略 --global。
 
 
 提交你的更改并附上一条简要的提交消息，这个消息应该描述这次提交的目的：
 Initial commit替换为自己的信息
 
-git commit -m "Initial commit"
+`git commit -m "Initial commit"`
 
 # 步骤 4: 关联远程仓库
 
