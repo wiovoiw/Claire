@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>表单设计</title>
+</head>
+<body>
+	<form name="login" method="get" action="login.html">
+		<fieldset>
+			<legend>用户注册</legend>
+			<h2 class="login"></h2>
+			<div class="fields">
+				<p class="row">
+					<label for="number">学号：</label>
+					<input type="text" id="number" name="number" size="10" minlength="12" maxlength="12" pattern="[0-9]*" value="202241620204" autofocus required/>
+				</p>
+				<p class="row">
+					<label for="name">姓名：</label>
+					<input type="text" id="name" name="name" class="field-large" size="10" value="楚中敏" autofocus required/>
+				</p>
+				<p class="row">
+					<label for="password">密码：</label>
+					<input type="password" id="password" name="password" size="10" minlength="8" maxlength="8" pattern="[0-9]*" required/>
+				</p>
+				<p class="row">
+					<label for="sex">性别：</label>
+					<input type="radio" name="sex" value="male" checked>男
+					<input type="radio" name="sex" value="female">女
+				</p>
+				<p>
+					<label for="hobbit">兴趣爱好：</label>
+					<input type="checkbox" name="hobbit" value="sing">唱歌
+					<input type="checkbox" name="hobbit" value="sport">运动
+					<input type="checkbox" name="hobbit" value="game">打游戏
+					<input type="checkbox" name="hobbit" value="read">看书
+				</p>
+				<p class="row">
+					<label for="grade">所在年级：</label>
+					<select name="grade">
+						<option value="choose">-请选择-</option>
+						<option value="2019">2019级</option>
+						<option value="2020">2020级</option>
+						<option value="2021">2021级</option>
+					</select>
+				</p>
+				<p class="row">
+					<input type="reset" value="重置">
+					<input type="submit" value="提交">
+				</p>
+			</div>
+		</fieldset>
+	</form>
+</body>
+</html>
+
+<!-- qqq -->
