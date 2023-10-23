@@ -82,3 +82,4 @@ public class Main {
         mz.mgpath(0, 0, 4, 4);
     }
 }
+
