@@ -1,3 +1,5 @@
+package data;
+
 class BSTACK 							//共享栈类
 {
 	final int MaxSize=5;
