@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+</head>
+<form name="login" method="get" action="login.html">
+		<h2 class="login"></h2>
+		<div class="fields">
+			<p class="row">
+				<label for="name">姓名：</label>
+				<input type="text" id="name" name="name" class="field-large" size="10" placeholder="请输入用户名……" autofocus required/>
+				<label for="password">密码：</label>
+				<input type="password" id="password" name="password" size="10" pattern="[0-9]{8}" placeholder="请输入密码……" required/>
+			</p>
+			<p class="row">
+				<label for="sex">性别：</label>
+				<input type="radio" name="sex" value="male" checked>男
+				<input type="radio" name="sex" value="female">女
+				<label for="number1">年龄：</label>
+					<input type="number" name="number1" size="4" min="1" max="100">
+			</p>
+			<p>
+				<label for="hobbit">爱好：</label>
+				<input type="checkbox" name="hobbit" value="bskball">篮球
+				<input type="checkbox" name="hobbit" value="ftball">足球
+				<input type="checkbox" name="hobbit" value="tnball">乒乓球
+			</p>
+			<p class="row">
+				<label for="city">城市：</label>
+				<select name="city">
+					<option value="山东省" style="font-weight: bold">山东省</option>
+					<option value="潍坊">潍坊</option>
+					<option value="青岛" selected="selected">青岛</option>
+					<option value="广东省" style="font-weight: bold">广东省</option>
+					<option value="广州">广州</option>
+					<option value="深圳">深圳</option>
+				</select>
+				email:<input type="email" name="user_email"/>
+			</p>
+			<p>
+				体重：<input type="range" name="range1" min="1" max="200"/>
+			</p>
+			<p>
+				生日：<input type="date" name="date1"/>
+			</p>
+			<p>
+				<label for="liuyan">留言：</label><br/>
+				<textarea id="liuyan" name="liuyan" cols="60" rows="5"></textarea>
+			</p>
+			<p>
+				照片：<input type="file" name="img" multiple/>
+			</p>
+			<p class="row">
+				<input type="reset" value="重置">
+				<input type="submit" value="提交">
+			</p>
+		</div>
+</form>
+<body>
+</body>
+</html>
