@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+	<style type="text/css">
+		p input{
+			height: 30px;
+			width: 150px;
+			font-size: 12px;
+			line-height: 1.5em;
+			border: 1px solid gray;
+			background-color: #C5C5C5;
+			border-radius: 3px;
+			display: block;
+		}
+		input:hover{
+			background-color: white;
+		}
+		#place::-webkit-input-placeholder{
+			color: #FF0000;
+			}
+		.box {
+			color:#000;
+			width:150px;
+		}
+		select {
+		width:150px;
+		color: #909993;
+		border:#000000 solid 1px;
+		border-radius: 3px;
+		height:30px;
+		line-height:23px;
+		background-color: gray;
+		color:#000000;
+		font-weight:bold;
+	}
+	option {
+		font-weight:bold;
+		border:none;
+		line-height:23px;
+		height:23px;
+		cursor:pointer;
+	}
+	.bjc1 {
+		background-color:#0C9;
+	}
+	.bjc2 {
+		background-color:#F96;
+	}
+	.bjc3 {
+		background-color:#0F0;
+	}
+	.bjc4 {
+		background-color:#C60;
+	}
+	</style>
+</head>
+
+<body>
+	<div class="box">
+		<form>
+			<p>
+				<label for="txt">姓名：</label><input type="text" name="name" placeholder="用户名"/>
+			</p>
+			<p>
+				<label for="pwd">密码：</label><input type="password" name="password" placeholder="密码" id="place"/>
+			</p>
+			<label for="city">城市：</label>
+				<select>	
+					<option class="bjc1">北京</option>
+					<option class="bjc2">上海</option>
+					<option class="bjc3">天津</option>
+					<option class="bjc4">重庆</option>     
+				</select>
+		</form>
+	</div>
+</body>
+</html>
